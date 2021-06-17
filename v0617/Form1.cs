@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -47,7 +48,7 @@ namespace v0617
 
         private void label1_Click(object sender, EventArgs e)
         {
-            bool enabled = timer1.Enabled;
+            timer1.Enabled = false;
         }
     }
 }
